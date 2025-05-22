@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Subir datos a la base NoSQL</title>
+
+</head>
+
+<body>
+
+    <h1>Upload data</h1>
+
+    <!-- Carga Manual -->
+    <h2>Manual Loading</h2>
+    <h3>Player Data</h3>
+
+    <label>Id player:</label>
+    <input type="text" id="idPlayer" required><br>
+
+    <label>Tiempo Total Jugado:</label>
+    <input type="text" id="totalTimeToPlay" required><br>
+
+    <label>Fecuencia de Disparo:</label>
+    <input type="text" id="frecuencyToTrigger" required><br>
+
+    <label>Numero de Muertes:</label>
+    <input type="text" id="numberToDies" required><br>
+
+    <label>Relacion Muerte con bajas:</label>
+    <input type="text" id="relationDiesDowns" required><br>
+    
+    <label>Dinero del Jugador:</label>
+    <input type="text" id="playersMoney" required><br>
+
+    <button id="submitPlayer">Upload Player Data</button>
+
+    <h3>Lobbies</h3>
+
+    <label>Id Lobbies:</label>
+    <input type="text" id="idLobbies" required><br>
+
+    <label>Duracion de la seccion:</label>
+    <input type="text" id="durationOfsesion" required><br>
+
+    <label>Lugar:</label>
+    <input type="text" id="place" required><br>
+
+    <button type="submit" id="submitLobbies">Save data</button>
+
+        <h3>Reportes</h3>
+
+    <label>Id reportes:</label>
+    <input type="text" id="idReportes" required><br>
+
+    <label>Razon del Reporte:</label>
+    <input type="text" id="razonReporte" required><br>
+
+    <button type="submit" id="submitReportes">Save data</button>
+
+    <hr>
+
+</body>
+
+</html>
+<script src="./frontend/Upload.js"></script>
